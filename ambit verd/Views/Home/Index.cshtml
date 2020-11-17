@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    Change the Language:
+
+    <ul>
+        <li> @Html.ActionLink("Spanish", "Change", "Home", new { Lang = "es" }, null)</li>
+        <li> @Html.ActionLink("English", "Change", "Home", new { Lang = "en" }, null)</li>
+    </ul>
+</div>

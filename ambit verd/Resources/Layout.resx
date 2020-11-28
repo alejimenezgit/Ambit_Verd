@@ -123,4 +123,7 @@
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ambit Verd</value>
+  </data>
 </root>

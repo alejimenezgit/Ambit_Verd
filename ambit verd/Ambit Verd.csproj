@@ -128,18 +128,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Layout.fr.Designer.cs">
+      <DependentUpon>Layout.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Layout.ca.Designer.cs">
+      <DependentUpon>Layout.ca.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Resources\Layout.Designer.cs">
       <DependentUpon>Layout.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Resources\Layout.es.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Layout.es.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="Content\css\index.scss" />
+    <Content Include="Content\css\index.css">
+      <DependentUpon>index.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\css\index.min.css">
+      <DependentUpon>index.css</DependentUpon>
+    </Content>
     <Content Include="Content\img\flag-fr.png" />
     <Content Include="Content\img\flag-sp.png" />
     <Content Include="Content\img\home.jpg" />
@@ -177,14 +193,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Layout.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Layout.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Layout.ca.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Layout.ca.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Layout.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Layout.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Layout.es.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Layout.es.Designer.cs</LastGenOutput>
-      <BrowseToURL>A</BrowseToURL>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

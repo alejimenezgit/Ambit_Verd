@@ -4,14 +4,15 @@
 
 .flag-icon-sp {
     background: url("../img/flag-sp.png") no-repeat;
-    background-size: 23px;
+    background-size: 25px;
     color: transparent !important;
     padding: 2px;
 }
 
 .flag-icon-fr {
     background: url("../img/flag-fr.png") no-repeat;
-    background-size: 23px;
+    background-size: 25px;
     color: transparent !important;
     padding: 2px;
 }
+

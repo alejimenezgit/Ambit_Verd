@@ -61,20 +61,20 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Contact.
+        ///   Busca una cadena traducida similar a Contacto.
         /// </summary>
-        public static string Contact {
+        public static string Contacto {
             get {
-                return ResourceManager.GetString("Contact", resourceCulture);
+                return ResourceManager.GetString("Contacto", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Home.
+        ///   Busca una cadena traducida similar a Inicio.
         /// </summary>
-        public static string Home {
+        public static string Inicio {
             get {
-                return ResourceManager.GetString("Home", resourceCulture);
+                return ResourceManager.GetString("Inicio", resourceCulture);
             }
         }
         
@@ -84,6 +84,33 @@ namespace Ambit_Verd.Resources {
         public static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Proyectos.
+        /// </summary>
+        public static string Proyectos {
+            get {
+                return ResourceManager.GetString("Proyectos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Quienes Somos.
+        /// </summary>
+        public static string Quienes_Somos {
+            get {
+                return ResourceManager.GetString("Quienes Somos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Servicios.
+        /// </summary>
+        public static string Servicios {
+            get {
+                return ResourceManager.GetString("Servicios", resourceCulture);
             }
         }
     }

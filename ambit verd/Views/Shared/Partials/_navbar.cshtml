@@ -8,18 +8,25 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">@Ambit_Verd.Resources.Layout.Home </a>
+                        <a class="nav-link" href="#">@Ambit_Verd.Resources.Layout.Inicio </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">@Ambit_Verd.Resources.Layout.Servicios </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">@Ambit_Verd.Resources.Layout.Proyectos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Ambit_Verd.Resources.Layout.Quienes_Somos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Ambit_Verd.Resources.Layout.Contacto </a>
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    @Html.ActionLink("Spanish", "Change", "Home", new { Lang = "es" }, new { @class = "flag-icon-sp"})
-                    @Html.ActionLink("English", "Change", "Home", new { Lang = "en" }, new { @class = "flag-icon-fr" })
+                    @Html.ActionLink("Spanish", "Change", "Home", new { Lang = "es" }, new { @class = "flag-icon-sp" })
+                    @Html.ActionLink("Catalan", "Change", "Home", new { Lang = "ca" }, new { @class = "flag-icon-fr" })
+                    @Html.ActionLink("Catalan", "Change", "Home", new { Lang = "fr" }, new { @class = "flag-icon-fr" })
                 </span>
             </div>
         </div>

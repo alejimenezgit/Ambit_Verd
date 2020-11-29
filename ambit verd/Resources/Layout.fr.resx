@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Contacto" xml:space="preserve">
-    <value>Contacto</value>
+    <value>Contact</value>
   </data>
   <data name="Inicio" xml:space="preserve">
-    <value>Inicio</value>
+    <value>Accueil</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Ambit Verd</value>
   </data>
   <data name="Proyectos" xml:space="preserve">
-    <value>Proyectos</value>
+    <value>Projectes</value>
   </data>
   <data name="Quienes Somos" xml:space="preserve">
-    <value>Quienes Somos</value>
+    <value>Qui sommes-nous</value>
   </data>
   <data name="Servicios" xml:space="preserve">
-    <value>Servicios</value>
+    <value>Services</value>
   </data>
 </root>

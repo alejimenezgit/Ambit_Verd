@@ -7,52 +7,79 @@
 }
 
 <div>
-    <div class="position-relative">
-        <img width="100%" src="~/Content/img/home.jpg" />
-        <div class="position-absolute text-inside-img">
-            Más de 20 años de experiencia en el sector
-        </div>
-        <button class="button position-absolute">
+    <div class="position-relative img-base">
+        <img class="position-absolute img-logo-border" src="~/Content/img/logo-border.png" />
+        <button class=" position-absolute button" type="button" data-toggle="modal" data-target="#myModal">
             Pide Información
             <div class="button__horizontal"></div>
             <div class="button__vertical"></div>
         </button>
     </div>
-
+        
 
     <div class="container">
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-            <div class="w-50 bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="w-50  mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div class="my-3 p-3">
-                    <h2 class="display-5">Another headline</h2>
+                    <h2 class="display-5"> @Ambit_Verd.Resources.Layout.Servicios </h2>
+                    <hr class="featurette-divider my-1" />
                     <p class="lead">And an even wittier subheading.</p>
                 </div>
                 <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
             </div>
-            <div class="w-50 bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="w-50  mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div class="my-3 p-3">
-                    <h2 class="display-5">Another headline</h2>
+                    <h2 class="display-5"> @Ambit_Verd.Resources.Layout.Proyectos </h2>
+                    <hr class="featurette-divider my-1" />
                     <p class="lead">And an even wittier subheading.</p>
                 </div>
                 <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
             </div>
         </div>
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-            <div class="w-50 bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="w-50  mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div class="my-3 p-3">
-                    <h2 class="display-5">Another headline</h2>
+                    <h2 class="display-5"> @Ambit_Verd.Resources.Layout.Quienes_Somos </h2>
+                    <hr class="featurette-divider my-1" />
                     <p class="lead">And an even wittier subheading.</p>
                 </div>
                 <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
             </div>
-            <div class="w-50 bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="w-50  mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div class="my-3 p-3">
-                    <h2 class="display-5">Another headline</h2>
+                    <h2 class="display-5"> @Ambit_Verd.Resources.Layout.Contacto </h2>
+                    <hr class="featurette-divider my-1" />
                     <p class="lead">And an even wittier subheading.</p>
                 </div>
                 <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
             </div>
         </div>
     </div>
+</div>
 
+
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                Modal body..
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
 </div>

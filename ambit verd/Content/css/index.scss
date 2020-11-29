@@ -1,38 +1,41 @@
-﻿.text-inside-img {
-    top: 40%;
+﻿.img-logo-border {
+    top: 30%;
     left: 50%;
-    background-color: #ffffff7a;
+    transform: translate(-50%, -50%);
+    width: 32%;
+    min-width: 420px;
+    max-width: 550px;
+}
+
+.img-base {
+    width: 100%;
+    height: 901px;
+    background: url("../img/home.jpg");
+    max-height: 900px;
+    background-repeat: repeat-x;
+}
+
+.text-inside-img {
+    top: 60%;
+    left: 50%;
+    background-color: #fff;
     padding: 17px 50px;
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 0px 0px 10px 10px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 0px 10px 10px rgba(255,255,255,1);
-    box-shadow: 0px 0px 10px 10px #ffffff7a;
+    -webkit-box-shadow: 0px 0px 10px 10px #fff;
+    -moz-box-shadow: 0px 0px 10px 10px #fff;
+    box-shadow: 0px 0px 10px 10px #fff;
     color: black;
     font-weight: bold;
     font-size: 27px;
 }
 
-.btnInfo {
-    top: 35%;
-    left: 50%;
-    background-color: #f7fbf7c9;
-    padding: 17px 50px;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-weight: bold;
-    font-size: 27px;
-    border: 1px solid white;
-    border-radius: 1rem;
+.featurette-divider {
+    background: #6abb3d;
+    height: 2px;
 }
-
-.btnInfo:hover {
-    background-color: #00ff21;
-    color: white;
-}
-
 
 .button {
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     --offset: 10px;
@@ -56,6 +59,7 @@
 
     &:hover {
         background: rgba(100, 0, 0, .03);
+        background-color: #ffffff7a !important;
     }
 
     &__horizontal,
@@ -108,4 +112,10 @@
     &:hover &__vertical {
         transform: scaleY(0);
     }
+}
+
+@media (max-width: 767px) {
+   .w-50 {
+       width: 100% !important; 
+   }
 }

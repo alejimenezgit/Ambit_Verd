@@ -9,7 +9,7 @@ namespace Ambit_Verd
         {
             bundles.Add(new StyleBundle("~/Content/css/layout").Include("~/Content/css/Layout.css"));
             bundles.Add(new StyleBundle("~/Content/css/index").Include("~/Content/css/index.min.css"));
-
+            bundles.Add(new StyleBundle("~/Content/css/services").Include("~/Content/css/Services.min.css"));
         }
     }
 }

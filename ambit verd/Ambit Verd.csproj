@@ -149,6 +149,13 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\css\Services.css">
+      <DependentUpon>Services.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\css\Services.min.css">
+      <DependentUpon>Services.css</DependentUpon>
+    </Content>
+    <Content Include="Content\css\Services.scss" />
     <None Include="Content\css\index.scss" />
     <Content Include="Content\css\index.css">
       <DependentUpon>index.scss</DependentUpon>
@@ -159,6 +166,8 @@
     <Content Include="Content\img\flag-fr.png" />
     <Content Include="Content\img\flag-sp.png" />
     <Content Include="Content\img\home.jpg" />
+    <Content Include="Content\img\logo-border.png" />
+    <Content Include="Content\img\logo-no-border.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\css\Layout.css" />
     <Content Include="favicon.ico" />
@@ -179,6 +188,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Partials\_navbar.cshtml" />
     <Content Include="Views\Shared\Partials\_footer.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -20,10 +20,18 @@ namespace Ambit_Verd.Controllers
             return View();
         }
 
+        public ActionResult Projects()
+        {
+            return View();
+        }
+
+        public ActionResult WhoWeAre()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
 

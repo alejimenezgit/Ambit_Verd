@@ -147,6 +147,18 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\css\Contact.css">
+      <DependentUpon>Contact.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\css\Contact.min.css">
+      <DependentUpon>Contact.css</DependentUpon>
+    </Content>
+    <Content Include="Content\css\Projects.css">
+      <DependentUpon>Projects.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\css\Projects.min.css">
+      <DependentUpon>Projects.css</DependentUpon>
+    </Content>
     <Content Include="Content\css\Services.css">
       <DependentUpon>Services.scss</DependentUpon>
     </Content>
@@ -154,6 +166,7 @@
       <DependentUpon>Services.css</DependentUpon>
     </Content>
     <Content Include="Content\css\Services.scss" />
+    <Content Include="Content\css\Projects.scss" />
     <None Include="Content\css\index.scss" />
     <Content Include="Content\css\index.css">
       <DependentUpon>index.scss</DependentUpon>
@@ -161,9 +174,16 @@
     <Content Include="Content\css\index.min.css">
       <DependentUpon>index.css</DependentUpon>
     </Content>
+    <Content Include="Content\css\WhoWeAre.css">
+      <DependentUpon>WhoWeAre.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\css\WhoWeAre.min.css">
+      <DependentUpon>WhoWeAre.css</DependentUpon>
+    </Content>
     <Content Include="Content\img\flag-cat.png" />
     <Content Include="Content\img\flag-fr.png" />
     <Content Include="Content\img\flag-sp.png" />
+    <Content Include="Content\img\grass-move.mp4" />
     <Content Include="Content\img\home.jpg" />
     <Content Include="Content\img\index-1.jpg" />
     <Content Include="Content\img\index-2.PNG" />
@@ -205,6 +225,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\css\Contact.scss" />
+    <Content Include="Content\css\WhoWeAre.scss" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

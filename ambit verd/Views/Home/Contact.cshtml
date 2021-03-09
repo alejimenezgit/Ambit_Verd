@@ -1,17 +1,25 @@
 ﻿@{
     ViewBag.Title = Ambit_Verd.Resources.Layout.Name;
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+@section Styles {
+    @Styles.Render("~/Content/css/contact")
+}
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+
+<div class="banner">
+    <video class="video" autoplay muted loop>
+
+        <source src="~/Content/img/grass-move.mp4" type="video/mp4">
+    </video>
+    <div class="text-video">
+            <h3 class="row font-weight-bold"> CONTACTO: </h3>
+            <label class="row"> Puede contactar con nosotros a través de: </label>
+            <label class="row"> ICONO TELF - 667 554 059</label>
+            <label class="row"> ICONO EMAIL - info@ambitverd.com </label>
+            <label class="row"> ICONO TWITER - Ambit Verd </label>
+            <label class="row"> ICONO INSTAGRAM - info@ambitverd.com </label>
+    </div>
+
+</div>
+

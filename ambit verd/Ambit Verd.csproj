@@ -180,9 +180,17 @@
     <Content Include="Content\css\WhoWeAre.min.css">
       <DependentUpon>WhoWeAre.css</DependentUpon>
     </Content>
+    <Content Include="Content\img\contact\email.png" />
+    <Content Include="Content\img\contact\instagram.png" />
+    <Content Include="Content\img\contact\telefono.png" />
+    <Content Include="Content\img\contact\twitter.png" />
     <Content Include="Content\img\flag-cat.png" />
     <Content Include="Content\img\flag-fr.png" />
     <Content Include="Content\img\flag-sp.png" />
+    <Content Include="Content\img\footer\email.png" />
+    <Content Include="Content\img\footer\github.png" />
+    <Content Include="Content\img\footer\linkedin.png" />
+    <Content Include="Content\img\footer\web.png" />
     <Content Include="Content\img\grass-move.mp4" />
     <Content Include="Content\img\home.jpg" />
     <Content Include="Content\img\index-1.jpg" />

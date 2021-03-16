@@ -1,6 +1,6 @@
 ﻿.video {
   width: 100%;
-  min-width: 1300px; }
+  min-width: 1260px; }
 
 .banner {
   position: relative; }
@@ -11,3 +11,9 @@
   width: 60%;
   margin-left: 20%;
   margin-right: 20%; }
+
+.mb-5 {
+  margin: 0px !important; }
+
+body {
+  overflow-x: hidden; }

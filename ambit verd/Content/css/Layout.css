@@ -2,8 +2,17 @@
     max-width: 1198px !important;
 }
 
+.c-black {
+    color: black;
+}
+
 .bg-color {
     background-color: #f7f7f7;
+}
+
+.featurette-divider {
+    background: #6abb3d;
+    height: 2px;
 }
 
 .flag-icon-sp {

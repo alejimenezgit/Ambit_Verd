@@ -201,6 +201,8 @@
     <Content Include="Content\img\logo-no-border.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\css\Layout.css" />
+    <Content Include="Content\img\whoweare\objetivo.png" />
+    <Content Include="Content\img\whoweare\satisfaccion.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

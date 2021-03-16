@@ -3,16 +3,40 @@
     ViewBag.Title = "WhoWeAre";
 }
 
+@section Styles {
+    @Styles.Render("~/Content/css/whoweare")
+}
 
 <div class="container">
 
+    <h1 class="font-weight-bold text-center mt-5"> ¿Quienes somos?</h1>
+    <hr class="featurette-divider mb-5 mt-4" />
+
     <label class="mt-5">
         Àmbit Verd es una empresa de obras y servicios integrales de jardinería comprometidos con ofrecer a nuestros clientes y empresas las mejores soluciones a sus necesidades en cualquier aspecto relacionado con jardines y espacios verdes.
-
+    </label>
+    <label>
         Ubicados en Puigcerdà prestamos nuestros servicios principalmente en la zona de la Cerdaña catalana y francesa. En  Àmbit Verd realizamos trabajos de jardinería en cualquier zona y terreno, prestando servicios a particulares, comunidades de vecinos, empresas y organismos oficiales.
-
+    </label>
+    <label>
         Nuestros servicios ofrecen soluciones integrales de jardinería en todas las áreas relacionadas con la jardinería, el paisajismo y los espacios verdes, desde el diseño y la ejecución hasta el mantenimiento.
+    </label>
 
+    <div class="d-flex mt-5">
+        <div class="w-50 p-5">
+            <img class="text-center row img-icon" src="~/Content/img/whoweare/objetivo.png"/>
+            <strong> Nuestro objetivo </strong> es proporcionar al cliente el diseño, asesoramiento y mantenimiento ideales, de acuerdo con sus necesidades y peticiones con las máximas garantías de calidad y profesionalidad.
+        </div>
+        <div class="w-50 p-5">
+            <img class="text-center row img-icon" src="~/Content/img/whoweare/satisfaccion.png" />
+            <strong>  Nuestra satisfacción </strong> es comprobar la aprobación de nuestros clientes tras la prestación de cualquiera de nuestros servicios, sea un proyecto integral o un pequeño mantenimiento.
+        </div>
+    </div>
+
+    <label class="mt-5">
+        Para conseguir todo esto Àmbit Verd cuenta con un equipo de trabajo cualificado, con experiencia y respaldado por los medios adecuados para llevar cabo su trabajo. Para nosotros el factor humano es, como en cualquier otra actividad, un aspecto esencial del trabajo bien hecho.
+
+        Si tiene cualquier necesidad relacionada con el mundo de la jardinería y el paisajismo, le proponemos que contacte con nosotros para poder asesorarle y proponerle la solución que mejor se adapte a sus necesidades, nos encargaremos de todos los servicios contratados sin que tenga que preocuparse de nada.
     </label>
 </div>
 

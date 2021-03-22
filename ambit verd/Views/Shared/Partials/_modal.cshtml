@@ -1,0 +1,30 @@
+﻿<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form method="post" action="@Url.Action("sendEmail","home")">
+                    <div>
+                        <label for="email">Status</label>
+                    </div>
+                    <div>
+                        <input name="email" type="email" />
+                    </div>
+                    <div>
+                        <input type="submit" @*data-dismiss="modal"*@ value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

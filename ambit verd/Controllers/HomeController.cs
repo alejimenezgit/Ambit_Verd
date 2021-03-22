@@ -46,11 +46,11 @@ namespace Ambit_Verd.Controllers
             client.Timeout = 10000;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
-            client.Credentials = new NetworkCredential("alejimreg@gmail.com", "alejandro199855");
+            client.Credentials = new NetworkCredential("@gmail.com", "");
             MailMessage msg = new MailMessage();
 
-            msg.To.Add("alejimreg@gmail.com");
-            msg.From = new MailAddress("alejimreg@gmail.com");
+            msg.To.Add("@gmail.com");
+            msg.From = new MailAddress("@gmail.com");
             msg.Subject = "alejandro";
             msg.Body = "alejandro";
 

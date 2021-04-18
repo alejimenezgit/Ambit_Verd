@@ -184,6 +184,7 @@
     <Content Include="Content\img\contact\instagram.png" />
     <Content Include="Content\img\contact\telefono.png" />
     <Content Include="Content\img\contact\twitter.png" />
+    <Content Include="Content\img\farming.png" />
     <Content Include="Content\img\flag-cat.png" />
     <Content Include="Content\img\flag-fr.png" />
     <Content Include="Content\img\flag-sp.png" />
@@ -193,6 +194,7 @@
     <Content Include="Content\img\footer\web.png" />
     <Content Include="Content\img\grass-move.mp4" />
     <Content Include="Content\img\home.jpg" />
+    <Content Include="Content\img\icologo.ico.ico" />
     <Content Include="Content\img\index-1.jpg" />
     <Content Include="Content\img\index-2.PNG" />
     <Content Include="Content\img\index-3.PNG" />
@@ -201,6 +203,10 @@
     <Content Include="Content\img\logo-no-border.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\css\Layout.css" />
+    <Content Include="Content\img\services\servicios.jpg" />
+    <Content Include="Content\img\services\servicios2.PNG" />
+    <Content Include="Content\img\services\servicios3.jpg" />
+    <Content Include="Content\img\services\servicios4.PNG" />
     <Content Include="Content\img\whoweare\objetivo.png" />
     <Content Include="Content\img\whoweare\satisfaccion.png" />
     <Content Include="favicon.ico" />
@@ -252,6 +258,7 @@
     <EmbeddedResource Include="Resources\Layout.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Layout.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

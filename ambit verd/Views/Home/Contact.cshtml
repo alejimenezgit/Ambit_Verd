@@ -1,24 +1,18 @@
-﻿@{
-    ViewBag.Title = Ambit_Verd.Resources.Layout.Name;
-}
-
-@section Styles {
+﻿@section Styles {
     @Styles.Render("~/Content/css/contact")
 }
 
-
 <div class="banner">
     <video class="video" autoplay muted loop>
-
         <source src="~/Content/img/grass-move.mp4" type="video/mp4">
     </video>
     <div class="text-video">
-            <h2 class="row font-weight-bold"> CONTACTO: </h2>
-            <h5 class="row mb-4"> Puede contactar con nosotros a través de: </h5>
-            <label class="row mt-2"> <img src="~/Content/img/contact/telefono.png" class="mr-4"/> 667 554 059</label>
-            <label class="row"> <img src="~/Content/img/contact/email.png" class="mr-4"/> info@ambitverd.com </label>
-            <label class="row"> <img src="~/Content/img/contact/twitter.png" class="mr-4"/> <a href="https://twitter.com/Ambit_Verd" target="_blank"> Twitter Ambit Verd </a> </label>
-            <label class="row"> <img src="~/Content/img/contact/instagram.png" class="mr-4"/> <a href="https://www.instagram.com/ambit_verd/?hl=es" target="_blank"> Instagram Ambit Verd </a> </label>
+            <h2 class="row font-weight-bold"> @Ambit_Verd.Resources.Layout.modal0 </h2>
+            <h5 class="row mb-4"> @Ambit_Verd.Resources.Layout.modal1 </h5>
+            <label class="row c-black mt-5 font-weight-bold"> <img src="~/Content/img/contact/telefono.png" class="mr-4"/> 667 554 059</label>
+            <label class="row c-black font-weight-bold"> <img src="~/Content/img/contact/email.png" class="mr-4"/> info@ambitverd.com </label>
+            <label class="row font-weight-bold"> <img src="~/Content/img/contact/twitter.png" class="mr-4"/> <a class="c-black" href="https://twitter.com/Ambit_Verd" target="_blank"> Twitter Ambit Verd </a> </label>
+            <label class="row font-weight-bold"> <img src="~/Content/img/contact/instagram.png" class="mr-4"/> <a class="c-black"  href="https://www.instagram.com/ambit_verd/?hl=es" target="_blank"> Instagram Ambit Verd </a> </label>
     </div>
 </div>
 

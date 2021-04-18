@@ -70,11 +70,56 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Subir arriba.
+        /// </summary>
+        public static string footer0 {
+            get {
+                return ResourceManager.GetString("footer0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ©Àmbit Verd Serveis Integrals de Jardineria S.L. · Puigcerdà · Tel 667 554 059 · info@ambitverd.com.
+        /// </summary>
+        public static string footer1 {
+            get {
+                return ResourceManager.GetString("footer1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Pide Información.
+        /// </summary>
+        public static string Index0 {
+            get {
+                return ResourceManager.GetString("Index0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Inicio.
         /// </summary>
         public static string Inicio {
             get {
                 return ResourceManager.GetString("Inicio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Contacto:.
+        /// </summary>
+        public static string modal0 {
+            get {
+                return ResourceManager.GetString("modal0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Puede contactar con nosotros a través de:.
+        /// </summary>
+        public static string modal1 {
+            get {
+                return ResourceManager.GetString("modal1", resourceCulture);
             }
         }
         
@@ -111,6 +156,465 @@ namespace Ambit_Verd.Resources {
         public static string Servicios {
             get {
                 return ResourceManager.GetString("Servicios", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Servicios.
+        /// </summary>
+        public static string Servicios0 {
+            get {
+                return ResourceManager.GetString("Servicios0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Diseño de jardines.
+        /// </summary>
+        public static string Servicios1 {
+            get {
+                return ResourceManager.GetString("Servicios1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Iluminación.
+        /// </summary>
+        public static string Servicios10 {
+            get {
+                return ResourceManager.GetString("Servicios10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sistemas de riego.
+        /// </summary>
+        public static string Servicios11 {
+            get {
+                return ResourceManager.GetString("Servicios11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mantenimiento de jardines.
+        /// </summary>
+        public static string Servicios12 {
+            get {
+                return ResourceManager.GetString("Servicios12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Realizamos todo tipo de mantenimientos en jardines y espacios verdes, tanto en los proyectados por nosotros como en los ya existentes..
+        /// </summary>
+        public static string Servicios13 {
+            get {
+                return ResourceManager.GetString("Servicios13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ofrecemos contratos de mantenimiento que pueden incluir varios servicios en largos espacios de tiempo, o si lo prefiere puede contratar trabajos concretos en el momento que lo precise..
+        /// </summary>
+        public static string Servicios14 {
+            get {
+                return ResourceManager.GetString("Servicios14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mantenimento periódico.
+        /// </summary>
+        public static string Servicios15 {
+            get {
+                return ResourceManager.GetString("Servicios15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Corte y mantenimiento específico de césped.
+        /// </summary>
+        public static string Servicios16 {
+            get {
+                return ResourceManager.GetString("Servicios16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Abonados.
+        /// </summary>
+        public static string Servicios17 {
+            get {
+                return ResourceManager.GetString("Servicios17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tratamientos fitosanitarios para insectos, plagas o hongos.
+        /// </summary>
+        public static string Servicios18 {
+            get {
+                return ResourceManager.GetString("Servicios18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Aplicaciones de herbicidas selectivos para eliminar malas hierbas de hoja ancha.
+        /// </summary>
+        public static string Servicios19 {
+            get {
+                return ResourceManager.GetString("Servicios19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Diseñamos su jardín, tanto adaptando sus ideas como sugiriéndole proyectos integrales de jardinería, teniendo siempre en cuenta sus necesidades..
+        /// </summary>
+        public static string Servicios2 {
+            get {
+                return ResourceManager.GetString("Servicios2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Recortes y podas de árboles y arbustos.
+        /// </summary>
+        public static string Servicios20 {
+            get {
+                return ResourceManager.GetString("Servicios20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ajustes del sistema de riego.
+        /// </summary>
+        public static string Servicios21 {
+            get {
+                return ResourceManager.GetString("Servicios21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Iluminación.
+        /// </summary>
+        public static string Servicios22 {
+            get {
+                return ResourceManager.GetString("Servicios22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Trabajos de mantenimiento puntual.
+        /// </summary>
+        public static string Servicios23 {
+            get {
+                return ResourceManager.GetString("Servicios23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Escarificados y aireados del césped.
+        /// </summary>
+        public static string Servicios24 {
+            get {
+                return ResourceManager.GetString("Servicios24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Podas de árboles y arbustos.
+        /// </summary>
+        public static string Servicios25 {
+            get {
+                return ResourceManager.GetString("Servicios25", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Resembrados.
+        /// </summary>
+        public static string Servicios26 {
+            get {
+                return ResourceManager.GetString("Servicios26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Abonados.
+        /// </summary>
+        public static string Servicios27 {
+            get {
+                return ResourceManager.GetString("Servicios27", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tratamientos fitosanitarios.
+        /// </summary>
+        public static string Servicios28 {
+            get {
+                return ResourceManager.GetString("Servicios28", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mantenimiento de sistemas de riego.
+        /// </summary>
+        public static string Servicios29 {
+            get {
+                return ResourceManager.GetString("Servicios29", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a En Àmbit Verd trabajamos con todo tipo de materiales instalando los más adecuados según el proyecto y su presupuesto:.
+        /// </summary>
+        public static string Servicios3 {
+            get {
+                return ResourceManager.GetString("Servicios3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sistemas de riego.
+        /// </summary>
+        public static string Servicios30 {
+            get {
+                return ResourceManager.GetString("Servicios30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a En Àmbit Verd planificamos e instalamos sistemas de riego personalizados y automatizadosque utilizan el agua justa y necesaria para cada zona, adaptándose a las características de cada jardín o zona verde. Así como el mantenimiento, adaptación y mejora de sistemas de riego ya existentes..
+        /// </summary>
+        public static string Servicios31 {
+            get {
+                return ResourceManager.GetString("Servicios31", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Los sistemas automatizados de riego le ahorrarán tiempo y responsabilidad, ya que por ellos mismos más el mantenimiento y supervisión de Àmbit Verd se ocuparán de toda la gestión del agua, sobre todo en superficies extensas..
+        /// </summary>
+        public static string Servicios32 {
+            get {
+                return ResourceManager.GetString("Servicios32", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Suministramos e instalamos todo el material:.
+        /// </summary>
+        public static string Servicios33 {
+            get {
+                return ResourceManager.GetString("Servicios33", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sistemas de control.
+        /// </summary>
+        public static string Servicios34 {
+            get {
+                return ResourceManager.GetString("Servicios34", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Electrobombas para pozos y depósitos..
+        /// </summary>
+        public static string Servicios35 {
+            get {
+                return ResourceManager.GetString("Servicios35", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Depósitos enterrados y de superficie para acumulación de aguas pluviales, acequias y pozos..
+        /// </summary>
+        public static string Servicios36 {
+            get {
+                return ResourceManager.GetString("Servicios36", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sistemas inteligentes para el ahorro de agua de riego, a base de sensores de lluvia y humedad.
+        /// </summary>
+        public static string Servicios37 {
+            get {
+                return ResourceManager.GetString("Servicios37", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Otros servicios..
+        /// </summary>
+        public static string Servicios38 {
+            get {
+                return ResourceManager.GetString("Servicios38", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Suministro y colocación de Leña..
+        /// </summary>
+        public static string Servicios39 {
+            get {
+                return ResourceManager.GetString("Servicios39", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mostrar materiales.
+        /// </summary>
+        public static string Servicios4 {
+            get {
+                return ResourceManager.GetString("Servicios4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Extracción de nieve para particulares y comunidades en los accesos a los parquings y entradas peatonales..
+        /// </summary>
+        public static string Servicios40 {
+            get {
+                return ResourceManager.GetString("Servicios40", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Limpieza de parquings..
+        /// </summary>
+        public static string Servicios41 {
+            get {
+                return ResourceManager.GetString("Servicios41", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mantenimiento de alumbrados exteriores..
+        /// </summary>
+        public static string Servicios42 {
+            get {
+                return ResourceManager.GetString("Servicios42", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Encendido manual de calefacciones en las casas..
+        /// </summary>
+        public static string Servicios43 {
+            get {
+                return ResourceManager.GetString("Servicios43", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sembrado de jardines.
+        /// </summary>
+        public static string Servicios5 {
+            get {
+                return ResourceManager.GetString("Servicios5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Plantas y árboles.
+        /// </summary>
+        public static string Servicios6 {
+            get {
+                return ResourceManager.GetString("Servicios6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Vallas.
+        /// </summary>
+        public static string Servicios7 {
+            get {
+                return ResourceManager.GetString("Servicios7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Jardineras.
+        /// </summary>
+        public static string Servicios8 {
+            get {
+                return ResourceManager.GetString("Servicios8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Elementos decorativos.
+        /// </summary>
+        public static string Servicios9 {
+            get {
+                return ResourceManager.GetString("Servicios9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Projects.
+        /// </summary>
+        public static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        public static string WeAre1 {
+            get {
+                return ResourceManager.GetString("WeAre1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        public static string WeAre2 {
+            get {
+                return ResourceManager.GetString("WeAre2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        public static string WeAre3 {
+            get {
+                return ResourceManager.GetString("WeAre3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        public static string WeAre4 {
+            get {
+                return ResourceManager.GetString("WeAre4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        public static string WeAre5 {
+            get {
+                return ResourceManager.GetString("WeAre5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        public static string WeAre6 {
+            get {
+                return ResourceManager.GetString("WeAre6", resourceCulture);
             }
         }
     }

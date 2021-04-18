@@ -120,8 +120,23 @@
   <data name="Contacto" xml:space="preserve">
     <value>Contact</value>
   </data>
+  <data name="footer0" xml:space="preserve">
+    <value>Monter</value>
+  </data>
+  <data name="footer1" xml:space="preserve">
+    <value>©Àmbit Verd Serveis Integrals de Jardineria S.L. · Puigcerdà · Tel 667 554 059 · info@ambitverd.com</value>
+  </data>
+  <data name="Index0" xml:space="preserve">
+    <value>Demander des informations</value>
+  </data>
   <data name="Inicio" xml:space="preserve">
     <value>Accueil</value>
+  </data>
+  <data name="modal0" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="modal1" xml:space="preserve">
+    <value>Vous pouvez nous contacter via:</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Ambit Verd</value>
@@ -134,5 +149,155 @@
   </data>
   <data name="Servicios" xml:space="preserve">
     <value>Services</value>
+  </data>
+  <data name="Servicios0" xml:space="preserve">
+    <value>Prestations de service</value>
+  </data>
+  <data name="Servicios1" xml:space="preserve">
+    <value>Conception de jardin</value>
+  </data>
+  <data name="Servicios10" xml:space="preserve">
+    <value>Éclairage</value>
+  </data>
+  <data name="Servicios11" xml:space="preserve">
+    <value>Système d'irrigation</value>
+  </data>
+  <data name="Servicios12" xml:space="preserve">
+    <value>Entretien du jardin</value>
+  </data>
+  <data name="Servicios13" xml:space="preserve">
+    <value>Nous réalisons toutes sortes d'entretien dans les jardins et espaces verts, aussi bien ceux projetés par nous que ceux qui existent déjà.</value>
+  </data>
+  <data name="Servicios14" xml:space="preserve">
+    <value>Nous proposons des contrats de maintenance qui peuvent inclure plusieurs services sur de longues périodes, ou si vous préférez, vous pouvez souscrire des travaux spécifiques au moment où vous en avez besoin.</value>
+  </data>
+  <data name="Servicios15" xml:space="preserve">
+    <value>Maintenance périodique</value>
+  </data>
+  <data name="Servicios16" xml:space="preserve">
+    <value>Tonte et entretien spécifiques de la pelouse</value>
+  </data>
+  <data name="Servicios17" xml:space="preserve">
+    <value>Les abonnés</value>
+  </data>
+  <data name="Servicios18" xml:space="preserve">
+    <value>Traitements phytosanitaires pour insectes, ravageurs ou champignons</value>
+  </data>
+  <data name="Servicios19" xml:space="preserve">
+    <value>Applications d'herbicides sélectives pour tuer les mauvaises herbes à feuilles larges</value>
+  </data>
+  <data name="Servicios2" xml:space="preserve">
+    <value>Nous concevons votre jardin, à la fois en adaptant vos idées et en vous suggérant des projets de jardinage complets, en gardant toujours à l'esprit vos besoins.</value>
+  </data>
+  <data name="Servicios20" xml:space="preserve">
+    <value>Taille et taille des arbres et arbustes</value>
+  </data>
+  <data name="Servicios21" xml:space="preserve">
+    <value>Paramètres du système d'irrigation</value>
+  </data>
+  <data name="Servicios22" xml:space="preserve">
+    <value>Éclairage</value>
+  </data>
+  <data name="Servicios23" xml:space="preserve">
+    <value>Travaux de maintenance ponctuels</value>
+  </data>
+  <data name="Servicios24" xml:space="preserve">
+    <value>Cicatrisé et aéré de la pelouse</value>
+  </data>
+  <data name="Servicios25" xml:space="preserve">
+    <value>Taille des arbres et arbustes</value>
+  </data>
+  <data name="Servicios26" xml:space="preserve">
+    <value>Réensemencement</value>
+  </data>
+  <data name="Servicios27" xml:space="preserve">
+    <value>Les abonnés</value>
+  </data>
+  <data name="Servicios28" xml:space="preserve">
+    <value>Traitements phytosanitaires</value>
+  </data>
+  <data name="Servicios29" xml:space="preserve">
+    <value>Entretien des systèmes d'irrigation</value>
+  </data>
+  <data name="Servicios3" xml:space="preserve">
+    <value>Chez Àmbit Verd nous travaillons avec toutes sortes de matériaux, en installant le plus approprié selon le projet et son budget:</value>
+  </data>
+  <data name="Servicios30" xml:space="preserve">
+    <value>Système d'irrigation</value>
+  </data>
+  <data name="Servicios31" xml:space="preserve">
+    <value>Chez Àmbit Verd, nous planifions et installons des systèmes d'irrigation personnalisés et automatisés qui utilisent l'eau appropriée et nécessaire pour chaque zone, en s'adaptant aux caractéristiques de chaque jardin ou espace vert. Ainsi que l'entretien, l'adaptation et l'amélioration des systèmes d'irrigation existants.</value>
+  </data>
+  <data name="Servicios32" xml:space="preserve">
+    <value>Les systèmes d'irrigation automatisés vous feront gagner du temps et des responsabilités, car à eux seuls, en plus de l'entretien et de la supervision d'Àmbit Verd, ils prendront en charge toute la gestion de l'eau, en particulier dans les grandes surfaces.</value>
+  </data>
+  <data name="Servicios33" xml:space="preserve">
+    <value>Nous fournissons et installons tout le matériel:</value>
+  </data>
+  <data name="Servicios34" xml:space="preserve">
+    <value>Systèmes de contrôle</value>
+  </data>
+  <data name="Servicios35" xml:space="preserve">
+    <value>Pompes électriques pour puits et réservoirs.</value>
+  </data>
+  <data name="Servicios36" xml:space="preserve">
+    <value>Réservoirs enterrés et de surface pour l'accumulation d'eau de pluie, fossés et puits.</value>
+  </data>
+  <data name="Servicios37" xml:space="preserve">
+    <value>Systèmes intelligents pour économiser l'eau d'irrigation, basés sur des capteurs de pluie et d'humidité</value>
+  </data>
+  <data name="Servicios38" xml:space="preserve">
+    <value>Autres services.</value>
+  </data>
+  <data name="Servicios39" xml:space="preserve">
+    <value>Fourniture et placement de bois de chauffage.</value>
+  </data>
+  <data name="Servicios4" xml:space="preserve">
+    <value>Afficher les matériaux</value>
+  </data>
+  <data name="Servicios40" xml:space="preserve">
+    <value>Déneigement pour les particuliers et les collectivités aux entrées des stationnements et aux entrées piétonnes.</value>
+  </data>
+  <data name="Servicios41" xml:space="preserve">
+    <value>Nettoyage des parkings.</value>
+  </data>
+  <data name="Servicios42" xml:space="preserve">
+    <value>Entretien de l'éclairage extérieur.</value>
+  </data>
+  <data name="Servicios43" xml:space="preserve">
+    <value>Allumage manuel des appareils de chauffage dans les maisons.</value>
+  </data>
+  <data name="Servicios5" xml:space="preserve">
+    <value>Jardins semés</value>
+  </data>
+  <data name="Servicios6" xml:space="preserve">
+    <value>Plantes et arbres</value>
+  </data>
+  <data name="Servicios7" xml:space="preserve">
+    <value>Clôtures</value>
+  </data>
+  <data name="Servicios8" xml:space="preserve">
+    <value>Jardinières</value>
+  </data>
+  <data name="Servicios9" xml:space="preserve">
+    <value>Éléments décoratifs</value>
+  </data>
+  <data name="WeAre1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WeAre2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WeAre3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WeAre4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WeAre5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WeAre6" xml:space="preserve">
+    <value />
   </data>
 </root>

@@ -3,7 +3,16 @@
 }
 
 .c-black {
-    color: black;
+    color: black !important;
+}
+
+.p-relative {
+    position: relative !important;
+}
+
+.img-farming {
+    position: absolute;
+    bottom: 0px;
 }
 
 .bg-color {

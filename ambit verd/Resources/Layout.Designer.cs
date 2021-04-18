@@ -565,7 +565,7 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Àmbit Verd es una empresa de obras y servicios integrales de jardinería comprometidos con ofrecer a nuestros clientes y empresas las mejores soluciones a sus necesidades en cualquier aspecto relacionado con jardines y espacios verdes..
         /// </summary>
         public static string WeAre1 {
             get {
@@ -574,7 +574,7 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Ubicados en Puigcerdà prestamos nuestros servicios principalmente en la zona de la Cerdaña catalana y francesa. En  Àmbit Verd realizamos trabajos de jardinería en cualquier zona y terreno, prestando servicios a particulares, comunidades de vecinos, empresas y organismos oficiales..
         /// </summary>
         public static string WeAre2 {
             get {
@@ -583,7 +583,7 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Nuestros servicios ofrecen soluciones integrales de jardinería en todas las áreas relacionadas con la jardinería, el paisajismo y los espacios verdes, desde el diseño y la ejecución hasta el mantenimiento..
         /// </summary>
         public static string WeAre3 {
             get {
@@ -592,7 +592,7 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Nuestro objetivo.
         /// </summary>
         public static string WeAre4 {
             get {
@@ -601,7 +601,7 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a es proporcionar al cliente el diseño, asesoramiento y mantenimiento ideales, de acuerdo con sus necesidades y peticiones con las máximas garantías de calidad y profesionalidad..
         /// </summary>
         public static string WeAre5 {
             get {
@@ -610,11 +610,31 @@ namespace Ambit_Verd.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Nuestra satisfacción.
         /// </summary>
         public static string WeAre6 {
             get {
                 return ResourceManager.GetString("WeAre6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a es comprobar la aprobación de nuestros clientes tras la prestación de cualquiera de nuestros servicios, sea un proyecto integral o un pequeño mantenimiento..
+        /// </summary>
+        public static string WeAre7 {
+            get {
+                return ResourceManager.GetString("WeAre7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Para conseguir todo esto Àmbit Verd cuenta con un equipo de trabajo cualificado, con experiencia y respaldado por los medios adecuados para llevar cabo su trabajo. Para nosotros el factor humano es, como en cualquier otra actividad, un aspecto esencial del trabajo bien hecho.
+        ///
+        ///        Si tiene cualquier necesidad relacionada con el mundo de la jardinería y el paisajismo, le proponemos que contacte con nosotros para poder asesorarle y proponerle la solución que mejor se adapte a sus necesidades, nos encarg [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        public static string WeAre8 {
+            get {
+                return ResourceManager.GetString("WeAre8", resourceCulture);
             }
         }
     }
